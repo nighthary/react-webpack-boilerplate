@@ -6,6 +6,7 @@ import { increment } from '$redux/actions'
 
 import './Counter.css'
 
+import bg from '../assets/bg.jpg'
 const mapStateToProps = state => ({
   count: state.counter.count
 })
@@ -15,11 +16,14 @@ const mapDispatchToProps = dispatch => ({
 })
 
 const Counter = ({ count, increment }) => (
-  <a className='counter'
-    href='javascript: void(0)'
-    onClick={increment}>
-    {count}
-  </a>
+  <div>
+    <a className='counter'
+      href='javascript: void(0)'
+      onClick={increment}>
+      {count}
+    </a>
+    <img class="img" src={bg}/>
+  </div>
 )
 
 Counter.prototype.propTypes = {

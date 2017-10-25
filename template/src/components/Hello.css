@@ -10,13 +10,9 @@
 #Hello .doc a {
   color: #e9e9e9;
 }
-{{#router}}
 #Hello .doc .router {
   color: #61dafb;
 }
-{{/router}}
-{{#redux}}
 #Hello .doc .redux {
   color: #7649bb;
 }
-{{/redux}}

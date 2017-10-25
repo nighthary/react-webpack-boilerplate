@@ -20,7 +20,7 @@
         },
         "development": {
             "plugins": ["react-hot-loader/babel"]
-        }{{#unit}},
+        },
         "test": {
             "presets": ["env", "stage-1"],
             "plugins": [
@@ -30,6 +30,6 @@
                     }
                 }]
             ]
-        }{{/unit}}
+        }
     }
 }

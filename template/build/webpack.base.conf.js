@@ -26,25 +26,23 @@ module.exports = {
         alias: {
             'src': resolve('src'),
             'assets': resolve('src/assets'),
-            'components': resolve('src/components'){{#router}},
+            'components': resolve('src/components'),
             'routes': resolve('src/routes'),
-            'views': resolve('src/views'){{/router}}{{#redux}},
-            '$redux': resolve('src/redux'){{/redux}}
+            'views': resolve('src/views'),
+            '$redux': resolve('src/redux')
         }
     },
     module: {
         rules: [
-            {{#lint}}
             {
-                test: /\.jsx?$/,
-                loader: 'eslint-loader',
-                enforce: 'pre',
-                include: [resolve('src'), resolve('test')],
-                options: {
-                    formatter: require('eslint-friendly-formatter')
-                }
+                // test: /\.jsx?$/,
+                // loader: 'eslint-loader',
+                // enforce: 'pre',
+                // include: [resolve('src'), resolve('test')],
+                // options: {
+                //     formatter: require('eslint-friendly-formatter')
+                // }
             },
-            {{/lint}}
             {
                 test: /\.jsx?$/,
                 loader: 'babel-loader',

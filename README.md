@@ -1,3 +1,7 @@
+## custom update at 2017-10-25
+
+根据实际情况对项目进行修改打包配置
+
 # react-webpack-boilerplate
 
 ![React](https://img.shields.io/badge/react-%5E16.0.0-brightgreen.svg)
