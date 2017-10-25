@@ -22,7 +22,7 @@ const Counter = ({ count, increment }) => (
       onClick={increment}>
       {count}
     </a>
-    <img class="img" src={bg}/>
+    <img className='img' src={bg} />
   </div>
 )
 
