@@ -2,6 +2,27 @@
 
 根据实际情况对项目进行修改打包配置
 
+
+
+```Js
+# clone project
+git clone https://github.com/nighthary/react-webpack-boilerplate.git
+
+# jump into code dir
+cd template
+
+# install node_modules
+npm install
+
+# run development
+npm run dev
+
+# build production
+npm run build
+```
+
+
+
 # react-webpack-boilerplate
 
 ![React](https://img.shields.io/badge/react-%5E16.0.0-brightgreen.svg)
